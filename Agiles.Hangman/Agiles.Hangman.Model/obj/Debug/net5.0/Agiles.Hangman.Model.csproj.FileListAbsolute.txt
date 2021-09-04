@@ -1,0 +1,12 @@
+C:\Desarrollo\hang-man\Agiles.Hangman\Agiles.Hangman.Model\bin\Debug\net5.0\Agiles.Hangman.Model.deps.json
+C:\Desarrollo\hang-man\Agiles.Hangman\Agiles.Hangman.Model\bin\Debug\net5.0\Agiles.Hangman.Model.dll
+C:\Desarrollo\hang-man\Agiles.Hangman\Agiles.Hangman.Model\bin\Debug\net5.0\ref\Agiles.Hangman.Model.dll
+C:\Desarrollo\hang-man\Agiles.Hangman\Agiles.Hangman.Model\bin\Debug\net5.0\Agiles.Hangman.Model.pdb
+C:\Desarrollo\hang-man\Agiles.Hangman\Agiles.Hangman.Model\obj\Debug\net5.0\Agiles.Hangman.Model.csprojAssemblyReference.cache
+C:\Desarrollo\hang-man\Agiles.Hangman\Agiles.Hangman.Model\obj\Debug\net5.0\Agiles.Hangman.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desarrollo\hang-man\Agiles.Hangman\Agiles.Hangman.Model\obj\Debug\net5.0\Agiles.Hangman.Model.AssemblyInfoInputs.cache
+C:\Desarrollo\hang-man\Agiles.Hangman\Agiles.Hangman.Model\obj\Debug\net5.0\Agiles.Hangman.Model.AssemblyInfo.cs
+C:\Desarrollo\hang-man\Agiles.Hangman\Agiles.Hangman.Model\obj\Debug\net5.0\Agiles.Hangman.Model.csproj.CoreCompileInputs.cache
+C:\Desarrollo\hang-man\Agiles.Hangman\Agiles.Hangman.Model\obj\Debug\net5.0\Agiles.Hangman.Model.dll
+C:\Desarrollo\hang-man\Agiles.Hangman\Agiles.Hangman.Model\obj\Debug\net5.0\ref\Agiles.Hangman.Model.dll
+C:\Desarrollo\hang-man\Agiles.Hangman\Agiles.Hangman.Model\obj\Debug\net5.0\Agiles.Hangman.Model.pdb
