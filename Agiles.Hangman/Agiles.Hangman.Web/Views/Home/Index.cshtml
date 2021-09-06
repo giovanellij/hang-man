@@ -1,0 +1,146 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<div class="jumbotron">
+    <div>
+        <button id="btnJugar">Jugar!</button>
+        <div>
+            <label id="resultado"></label>
+        </div>
+    </div>
+    <div id="divJuego">
+        <input id="txtLetra" type="text" />
+        <button id="btnProbar">Probar</button>
+        <div>
+            <label id="palabra"></label>
+        </div>
+        <div>
+            <label id="lblLetrasIngresadasTitulo">Letras ingresadas: </label>
+            <label id="lblLetrasIngresadas"></label>
+        </div>
+        <div>
+            <label id="lblIntentosFallidosTitulo">Intentos fallidos: </label>
+            <label id="lblIntentosFallidos"></label>
+        </div>
+
+    </div>
+
+</div>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/1.1.9/js/libs/jquery-1.10.2.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("#divJuego").hide()
+    })
+
+    $("#btnJugar").click(iniciar)
+
+    function iniciar() {
+        $.ajax({
+            type: "GET",
+            url: "/Home/Nueva",
+            datatype: "json",
+            contentType: "application/json; charset=utf-8",
+            success: function (response) {
+                $("#lblLetrasIngresadas").html('');
+                $("#divJuego").show(100);
+                console.log(response);
+                intentosFallidos(response);
+                limpiar();
+                MostrarEstadoDeJuego(response);
+            }
+        })
+    }
+
+    $("#btnProbar").click(function() {
+        if ($("#txtLetra").val().length > 1) {
+            arriesgar();
+        }else {
+            probar();
+        }
+    })
+
+    function probar() {
+        $.ajax({
+            type: "GET",
+            url: "/Home/Probar/" + $("#txtLetra").val().trim(),
+            datatype: "json",
+            contentType: "application/json; charset=utf-8",
+            success: function (response) {
+                console.log(response);
+                MostrarEstadoDeJuego(response);
+                intentosFallidos(response);
+                mostrarLetrasIngresadas(response);
+                if (response.llegoAlMaximoDeIntentos) {
+                    perdiste();
+                }
+
+                if (response.palabraCompleta) {
+                    ganaste();
+                }
+            }
+        })
+    }
+
+    function arriesgar() {
+        $.ajax({
+            type: "GET",
+            url: "/Home/Arriesgar/" + $("#txtLetra").val().trim(),
+            datatype: "json",
+            contentType: "application/json; charset=utf-8",
+            success: function (response) {
+                MostrarEstadoDeJuego(response);
+
+                if (response.palabraCompleta) {
+                    ganaste();
+                } else {
+                    perdiste();
+                }
+            }
+        })
+    }
+
+    function MostrarEstadoDeJuego(response) {
+        $('#txtLetra').val('');
+        $('#txtLetra').focus();
+        var palabra = response.estadoPalabra;
+        $("#palabra").html('');
+        for (var i = 0; i < palabra.length; i++) {
+            $("#palabra").append(' ');
+            $("#palabra").append(palabra[i].valor);
+        }
+    }
+
+    function mostrarLetrasIngresadas(response) {
+        $("#lblLetrasIngresadas").html(' ');
+        for (var i = 0; i < response.letrasIngresadas.length; i++) {
+            $("#lblLetrasIngresadas").append(' ');
+            $("#lblLetrasIngresadas").append(response.letrasIngresadas[i]);
+        }
+    }
+
+    function intentosFallidos(response) {
+        $("#lblIntentosFallidos").html(response.intentosFallidos + ' / ' + response.maxIntentos);
+    }
+
+    function ganaste() {
+        $("#resultado").html("Ganaste!");
+        $("#resultado").show();
+    }
+
+    function perdiste() {
+        $("#resultado").html("Perdiste :(");
+        $("#resultado").show();
+    }
+
+    function limpiar() {
+        $("#resultado").html('');
+        $("#resultado").hide();
+    }
+</script>
+

@@ -1,8 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Agiles.Hangman.Model
 {
@@ -20,7 +17,8 @@ namespace Agiles.Hangman.Model
         public int MaximoDeIntentos { get; private set; }
 
         public ICollection<string> LetrasIngresadas { get; private set; }
-        
+
+        [JsonConverter(typeof(ConcreteTypeConverter<Palabra>))]
         public IPalabra Palabra { get; private set; }
 
         public bool IngresarLetra(string letra)

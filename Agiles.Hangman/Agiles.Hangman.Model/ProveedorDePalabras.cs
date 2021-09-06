@@ -1,15 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Agiles.Hangman.Model
 {
     public class ProveedorDePalabras : IProveedorDePalabras
     {
-        private Random _random;
-        private ICollection<string> _palabras;
+        public Random _random;
+        public ICollection<string> _palabras;
 
         public ProveedorDePalabras(ICollection<string> listaDePalabras)
         {
