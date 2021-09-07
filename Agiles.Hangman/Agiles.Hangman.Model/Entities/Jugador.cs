@@ -1,4 +1,6 @@
-﻿namespace Agiles.Hangman.Model
+﻿using Agiles.Hangman.Model.Interfaces;
+
+namespace Agiles.Hangman.Model.Entities
 {
     public class Jugador : IJugador
     {

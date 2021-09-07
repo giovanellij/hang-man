@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Agiles.Hangman.Model
+namespace Agiles.Hangman.Model.Interfaces
 {
     public interface IPartida
     {

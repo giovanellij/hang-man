@@ -1,6 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using Agiles.Hangman.Model.Entities;
+using System.Collections.Generic;
 
-namespace Agiles.Hangman.Model
+namespace Agiles.Hangman.Model.Interfaces
 {
     public interface IPalabra
     {

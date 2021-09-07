@@ -1,4 +1,6 @@
 ﻿using Agiles.Hangman.Model;
+using Agiles.Hangman.Model.Entities;
+using Agiles.Hangman.Model.Interfaces;
 using Agiles.Hangman.Web.Helpers;
 using Agiles.Hangman.Web.Models;
 using Microsoft.AspNetCore.Http;

@@ -1,4 +1,5 @@
-﻿using Agiles.Hangman.Model;
+﻿using Agiles.Hangman.Model.Entities;
+using Agiles.Hangman.Model.Interfaces;
 using System.Collections.Generic;
 
 namespace Agiles.Hangman.Web.Models

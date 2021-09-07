@@ -1,7 +1,9 @@
 ﻿using Newtonsoft.Json;
+using Agiles.Hangman.Model.Interfaces;
 using System.Collections.Generic;
+using Agiles.Hangman.Model.Helpers;
 
-namespace Agiles.Hangman.Model
+namespace Agiles.Hangman.Model.Entities
 {
     public class Partida : IPartida
     {

@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System;
 
-namespace Agiles.Hangman.Model
+namespace Agiles.Hangman.Model.Helpers
 {
     public class ConcreteTypeConverter<TConcrete> : JsonConverter
     {

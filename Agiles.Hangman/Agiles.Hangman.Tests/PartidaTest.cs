@@ -1,4 +1,5 @@
-﻿using Agiles.Hangman.Model;
+﻿using Agiles.Hangman.Model.Entities;
+using Agiles.Hangman.Model.Interfaces;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Linq;
 

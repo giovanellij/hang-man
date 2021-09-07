@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using Agiles.Hangman.Model.Interfaces;
 using System.Linq;
 
-namespace Agiles.Hangman.Model
+namespace Agiles.Hangman.Model.Entities
 {
     public class ProveedorDePalabras : IProveedorDePalabras
     {

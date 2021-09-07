@@ -1,4 +1,4 @@
-﻿namespace Agiles.Hangman.Model
+﻿namespace Agiles.Hangman.Model.Entities
 {
     public  class Letra
     {
