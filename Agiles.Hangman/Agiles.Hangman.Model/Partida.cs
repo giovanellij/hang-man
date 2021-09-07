@@ -5,6 +5,11 @@ namespace Agiles.Hangman.Model
 {
     public class Partida : IPartida
     {
+        public Partida()
+        {
+
+        }
+
         public Partida(IPalabra palabra, int maximoDeIntentos)
         {
             Palabra = palabra;
@@ -12,14 +17,14 @@ namespace Agiles.Hangman.Model
             MaximoDeIntentos = maximoDeIntentos;
         }
 
-        public int IntentosFallidos { get; private set; }
+        public int IntentosFallidos { get; set; }
 
-        public int MaximoDeIntentos { get; private set; }
+        public int MaximoDeIntentos { get; set; }
 
-        public ICollection<string> LetrasIngresadas { get; private set; }
+        public List<string> LetrasIngresadas { get; set; }
 
         [JsonConverter(typeof(ConcreteTypeConverter<Palabra>))]
-        public IPalabra Palabra { get; private set; }
+        public IPalabra Palabra { get; set; }
 
         public bool IngresarLetra(string letra)
         {

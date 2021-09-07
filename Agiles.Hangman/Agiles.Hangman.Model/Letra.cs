@@ -2,6 +2,10 @@
 {
     public  class Letra
     {
+        public Letra()
+        {
+
+        }
         public Letra(char valor, int posicion)
         {
             Valor = valor.ToString();

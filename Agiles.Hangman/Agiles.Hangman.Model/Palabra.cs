@@ -6,19 +6,23 @@ namespace Agiles.Hangman.Model
 {
     public class Palabra : IPalabra
     {
-        private ICollection<Letra> _letras;
+
+        public Palabra()
+        {
+            Letras = new List<Letra>();
+        }
 
         public Palabra(string valor)
         {
             Valor = valor;
-            _letras = new List<Letra>();
+            Letras = new List<Letra>();
 
             CrearLetras();
         }
 
-        public string Valor { get; private set; }
+        public string Valor { get; set; }
 
-        public ICollection<Letra> Letras { get { return _letras; } }
+        public List<Letra> Letras { get; set; }
 
         public bool BuscarLetra(string letra)
         {
@@ -26,10 +30,10 @@ namespace Agiles.Hangman.Model
 
             if(!String.IsNullOrWhiteSpace(letra))
             {
-                existe = _letras.Any(l => l.Valor == letra);
+                existe = Letras.Any(l => l.Valor == letra);
                 if (existe)
                 {
-                    _letras.Where(l => l.Valor == letra).ToList().ForEach(x => x.Adivinada = true);
+                    Letras.Where(l => l.Valor == letra).ToList().ForEach(x => x.Adivinada = true);
                 }
             }
            
@@ -38,7 +42,7 @@ namespace Agiles.Hangman.Model
 
         public bool EstaCompleta()
         {
-            return !_letras.Any(l => !l.Adivinada);
+            return !Letras.Any(l => !l.Adivinada);
         }
 
         public bool Arriesgar(string palabraCompleta)
@@ -56,7 +60,7 @@ namespace Agiles.Hangman.Model
             var letras = Valor.ToArray();
             for (int i = 0; i < letras.Count(); i++)
             {
-                _letras.Add(new Letra(letras.ElementAt(i), i));
+                Letras.Add(new Letra(letras.ElementAt(i), i));
             }
         }
     }

@@ -10,7 +10,7 @@ namespace Agiles.Hangman.Model
 
         int MaximoDeIntentos { get; }
 
-        ICollection<string> LetrasIngresadas { get; }
+        List<string> LetrasIngresadas { get; }
 
         bool IngresarLetra(string letra);
 

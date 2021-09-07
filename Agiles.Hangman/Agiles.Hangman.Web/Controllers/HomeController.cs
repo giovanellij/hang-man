@@ -3,7 +3,6 @@ using Agiles.Hangman.Web.Helpers;
 using Agiles.Hangman.Web.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using System.Collections.Generic;
 using System.Diagnostics;
 

@@ -6,7 +6,7 @@ namespace Agiles.Hangman.Model
     {
         string Valor { get; }
 
-        ICollection<Letra> Letras { get; }
+        List<Letra> Letras { get; }
 
         bool BuscarLetra(string letra );
 
