@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agiles2017.Ahorcado.Modelo", "Agiles2017.Ahorcado.Modelo\Agiles2017.Ahorcado.Modelo.csproj", "{24F716F0-58E2-451D-9BC2-49CBAD762BF9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{229C30C7-EA77-4FE5-8D2B-B79B3B3E7061}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agiles2017.Ahorcado.Modelo.Tests", "Agiles2017.Ahorcado.Modelo.Tests\Agiles2017.Ahorcado.Modelo.Tests.csproj", "{937B47ED-B584-4277-9D4B-2B3E4AFC7FB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agiles2017.Ahorcado.Web", "Agiles2017.Ahorcado.Web\Agiles2017.Ahorcado.Web.csproj", "{682511A2-F3E7-42DA-90D6-5FB5CFAF20E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24F716F0-58E2-451D-9BC2-49CBAD762BF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24F716F0-58E2-451D-9BC2-49CBAD762BF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24F716F0-58E2-451D-9BC2-49CBAD762BF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24F716F0-58E2-451D-9BC2-49CBAD762BF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{937B47ED-B584-4277-9D4B-2B3E4AFC7FB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{937B47ED-B584-4277-9D4B-2B3E4AFC7FB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{937B47ED-B584-4277-9D4B-2B3E4AFC7FB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{937B47ED-B584-4277-9D4B-2B3E4AFC7FB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{682511A2-F3E7-42DA-90D6-5FB5CFAF20E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{682511A2-F3E7-42DA-90D6-5FB5CFAF20E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{682511A2-F3E7-42DA-90D6-5FB5CFAF20E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{682511A2-F3E7-42DA-90D6-5FB5CFAF20E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{937B47ED-B584-4277-9D4B-2B3E4AFC7FB5} = {229C30C7-EA77-4FE5-8D2B-B79B3B3E7061}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://federicogk.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Agiles2017.Ahorcado.Modelo\\Agiles2017.Ahorcado.Modelo.csproj
+		SccProjectName1 = Agiles2017.Ahorcado.Modelo
+		SccLocalPath1 = Agiles2017.Ahorcado.Modelo
+		SccProjectUniqueName2 = Agiles2017.Ahorcado.Modelo.Tests\\Agiles2017.Ahorcado.Modelo.Tests.csproj
+		SccProjectTopLevelParentUniqueName2 = Agiles2017.Ahorcado.sln
+		SccProjectName2 = Agiles2017.Ahorcado.Modelo.Tests
+		SccLocalPath2 = Agiles2017.Ahorcado.Modelo.Tests
+		SccProjectUniqueName3 = Agiles2017.Ahorcado.Web\\Agiles2017.Ahorcado.Web.csproj
+		SccProjectName3 = Agiles2017.Ahorcado.Web
+		SccLocalPath3 = Agiles2017.Ahorcado.Web
+	EndGlobalSection
+EndGlobal
