@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agiles.Hangman.Web", "Agile
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{DEAF4A18-EA87-44FB-9873-91A5650001F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agiles.Hangman.Tests", "Agiles.Hangman.Tests\Agiles.Hangman.Tests.csproj", "{E89F826F-571F-4572-BB4C-B147DAC93318}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agiles.Hangman.Tests", "Agiles.Hangman.Tests\Agiles.Hangman.Tests.csproj", "{E89F826F-571F-4572-BB4C-B147DAC93318}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agiles.Hangman.UITests", "Agiles.Hangman.UITests\Agiles.Hangman.UITests.csproj", "{58B07E26-EFAD-4393-B981-4A2B07271F8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,12 +31,17 @@ Global
 		{E89F826F-571F-4572-BB4C-B147DAC93318}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E89F826F-571F-4572-BB4C-B147DAC93318}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E89F826F-571F-4572-BB4C-B147DAC93318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58B07E26-EFAD-4393-B981-4A2B07271F8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58B07E26-EFAD-4393-B981-4A2B07271F8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58B07E26-EFAD-4393-B981-4A2B07271F8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58B07E26-EFAD-4393-B981-4A2B07271F8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E89F826F-571F-4572-BB4C-B147DAC93318} = {DEAF4A18-EA87-44FB-9873-91A5650001F3}
+		{58B07E26-EFAD-4393-B981-4A2B07271F8C} = {DEAF4A18-EA87-44FB-9873-91A5650001F3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B8EC52AE-7824-4653-ABAD-A91C329BE391}

@@ -29,13 +29,9 @@ namespace Agiles.Hangman.Model.Entities
         public int Indice()
         {
             var a = _random.Next(_palabras.Count());
-            if (a == 0)
-            { return 0; }
 
-            else
-            {
-                return a - 1;
-            }
+            if (a == 0) return 0;
+                else return a - 1;
         }
     }
 }

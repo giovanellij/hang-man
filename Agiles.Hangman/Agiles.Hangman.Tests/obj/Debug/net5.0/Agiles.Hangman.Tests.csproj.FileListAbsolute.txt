@@ -88,7 +88,6 @@ C:\Desarrollo\hang-man\Agiles.Hangman\Agiles.Hangman.Tests\bin\Debug\net5.0\zh-H
 C:\Desarrollo\hang-man\Agiles.Hangman\Agiles.Hangman.Tests\bin\Debug\net5.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
 C:\Desarrollo\hang-man\Agiles.Hangman\Agiles.Hangman.Tests\bin\Debug\net5.0\Agiles.Hangman.Model.dll
 C:\Desarrollo\hang-man\Agiles.Hangman\Agiles.Hangman.Tests\bin\Debug\net5.0\Agiles.Hangman.Model.pdb
-C:\Desarrollo\hang-man\Agiles.Hangman\Agiles.Hangman.Tests\obj\Debug\net5.0\Agiles.Hangman.Tests.csprojAssemblyReference.cache
 C:\Desarrollo\hang-man\Agiles.Hangman\Agiles.Hangman.Tests\obj\Debug\net5.0\Agiles.Hangman.Tests.GeneratedMSBuildEditorConfig.editorconfig
 C:\Desarrollo\hang-man\Agiles.Hangman\Agiles.Hangman.Tests\obj\Debug\net5.0\Agiles.Hangman.Tests.AssemblyInfoInputs.cache
 C:\Desarrollo\hang-man\Agiles.Hangman\Agiles.Hangman.Tests\obj\Debug\net5.0\Agiles.Hangman.Tests.AssemblyInfo.cs
@@ -98,3 +97,4 @@ C:\Desarrollo\hang-man\Agiles.Hangman\Agiles.Hangman.Tests\obj\Debug\net5.0\Agil
 C:\Desarrollo\hang-man\Agiles.Hangman\Agiles.Hangman.Tests\obj\Debug\net5.0\ref\Agiles.Hangman.Tests.dll
 C:\Desarrollo\hang-man\Agiles.Hangman\Agiles.Hangman.Tests\obj\Debug\net5.0\Agiles.Hangman.Tests.pdb
 C:\Desarrollo\hang-man\Agiles.Hangman\Agiles.Hangman.Tests\obj\Debug\net5.0\Agiles.Hangman.Tests.genruntimeconfig.cache
+C:\Desarrollo\hang-man\Agiles.Hangman\Agiles.Hangman.Tests\obj\Debug\net5.0\Agiles.Hangman.Tests.csproj.AssemblyReference.cache

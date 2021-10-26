@@ -325,7 +325,6 @@ C:\Desarrollo\hang-man\Agiles.Hangman\Agiles.Hangman.Web\bin\Debug\net5.0\ru\Mic
 C:\Desarrollo\hang-man\Agiles.Hangman\Agiles.Hangman.Web\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Desarrollo\hang-man\Agiles.Hangman\Agiles.Hangman.Web\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Desarrollo\hang-man\Agiles.Hangman\Agiles.Hangman.Web\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Desarrollo\hang-man\Agiles.Hangman\Agiles.Hangman.Web\obj\Debug\net5.0\Agiles.Hangman.Web.csprojAssemblyReference.cache
 C:\Desarrollo\hang-man\Agiles.Hangman\Agiles.Hangman.Web\obj\Debug\net5.0\Agiles.Hangman.Web.GeneratedMSBuildEditorConfig.editorconfig
 C:\Desarrollo\hang-man\Agiles.Hangman\Agiles.Hangman.Web\obj\Debug\net5.0\Agiles.Hangman.Web.AssemblyInfoInputs.cache
 C:\Desarrollo\hang-man\Agiles.Hangman\Agiles.Hangman.Web\obj\Debug\net5.0\Agiles.Hangman.Web.AssemblyInfo.cs
@@ -357,3 +356,4 @@ C:\Desarrollo\hang-man\Agiles.Hangman\Agiles.Hangman.Web\obj\Debug\net5.0\Agiles
 C:\Desarrollo\hang-man\Agiles.Hangman\Agiles.Hangman.Web\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Desarrollo\hang-man\Agiles.Hangman\Agiles.Hangman.Web\bin\Debug\net5.0\Agiles.Hangman.Model.dll
 C:\Desarrollo\hang-man\Agiles.Hangman\Agiles.Hangman.Web\bin\Debug\net5.0\Agiles.Hangman.Model.pdb
+C:\Desarrollo\hang-man\Agiles.Hangman\Agiles.Hangman.Web\obj\Debug\net5.0\Agiles.Hangman.Web.csproj.AssemblyReference.cache

@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Agiles.Hangman.UITests
+build_property.ProjectDir = C:\Desarrollo\hang-man\Agiles.Hangman\Agiles.Hangman.UITests\

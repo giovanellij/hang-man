@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Desarrollo\\hang-man\\Agiles.Hangman\\Agiles.Hangman.Web\\Agiles.Hangman.Web.csproj": {}
+    "C:\\Desarrollo\\hang-man\\Agiles.Hangman\\Agiles.Hangman.UITests\\Agiles.Hangman.UITests.csproj": {}
   },
   "projects": {
     "C:\\Desarrollo\\hang-man\\Agiles.Hangman\\Agiles.Hangman.Model\\Agiles.Hangman.Model.csproj": {
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Desarrollo\\hang-man\\Agiles.Hangman\\Agiles.Hangman.Web\\Agiles.Hangman.Web.csproj": {
+    "C:\\Desarrollo\\hang-man\\Agiles.Hangman\\Agiles.Hangman.UITests\\Agiles.Hangman.UITests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Desarrollo\\hang-man\\Agiles.Hangman\\Agiles.Hangman.Web\\Agiles.Hangman.Web.csproj",
-        "projectName": "Agiles.Hangman.Web",
-        "projectPath": "C:\\Desarrollo\\hang-man\\Agiles.Hangman\\Agiles.Hangman.Web\\Agiles.Hangman.Web.csproj",
+        "projectUniqueName": "C:\\Desarrollo\\hang-man\\Agiles.Hangman\\Agiles.Hangman.UITests\\Agiles.Hangman.UITests.csproj",
+        "projectName": "Agiles.Hangman.UITests",
+        "projectPath": "C:\\Desarrollo\\hang-man\\Agiles.Hangman\\Agiles.Hangman.UITests\\Agiles.Hangman.UITests.csproj",
         "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
-        "outputPath": "C:\\Desarrollo\\hang-man\\Agiles.Hangman\\Agiles.Hangman.Web\\obj\\",
+        "outputPath": "C:\\Desarrollo\\hang-man\\Agiles.Hangman\\Agiles.Hangman.UITests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -114,17 +114,33 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+            "MSTest.TestAdapter": {
               "target": "Package",
-              "version": "[5.0.9, )"
+              "version": "[2.1.0, )"
             },
-            "Microsoft.AspNetCore.Session": {
+            "MSTest.TestFramework": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[2.1.0, )"
             },
-            "Newtonsoft.Json": {
+            "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[13.0.1, )"
+              "version": "[16.5.0, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "SpecFlow.NUnit": {
+              "target": "Package",
+              "version": "[3.9.22, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
             }
           },
           "imports": [
@@ -138,9 +154,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
