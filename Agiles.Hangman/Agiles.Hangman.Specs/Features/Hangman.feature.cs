@@ -40,8 +40,8 @@ namespace Agiles.Hangman.Specs.Features
         public static void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "Hangman", "\tAs user\r\n\tI want to input an individual character or an entire word\r\n\tSo I can g" +
-                    "ot the result either I guessed the word or not.", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "Hangman", "\tAs user\n\tI want to input an individual character or an entire word\n\tSo I can got" +
+                    " the result either I guessed the word or not.", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
